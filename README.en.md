@@ -2,7 +2,7 @@
 
 > Make Hermes Telegram Gateway tool-progress messages transient: one editable rolling progress bubble during execution, up to the latest 3 lines, automatically deleted after the final reply.
 
-中文说明: [README.md](README.md)
+中文说明 / Chinese README: [README.zh.md](README.zh.md)
 
 ## What problem does it solve?
 
