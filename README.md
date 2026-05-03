@@ -1,4 +1,4 @@
-# Hermes Transient Progress Cleanup
+# Hermes Blip
 
 > 让 Hermes Telegram Gateway 的工具执行过程只显示为一个临时进度气泡：执行中动态刷新最近 3 行，任务完成后自动撤回；最终回复保留。
 
@@ -46,8 +46,8 @@ Hermes Agent 在 Telegram Gateway 中执行工具时，可能会把 `terminal`�
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/shengyu-meng/hermes-transient-progress-cleanup.git
-cd hermes-transient-progress-cleanup
+git clone https://github.com/shengyu-meng/hermes-blip.git
+cd hermes-blip
 ```
 
 
@@ -134,20 +134,20 @@ agent:
 这个仓库包含一个 Hermes skill：
 
 ```text
-skills/hermes-transient-progress-cleanup/SKILL.md
+skills/hermes-blip/SKILL.md
 ```
 
 复制到你的 Hermes skill 目录：
 
 ```bash
-mkdir -p ~/.hermes/skills/devops/hermes-transient-progress-cleanup
-cp -R skills/hermes-transient-progress-cleanup/* ~/.hermes/skills/devops/hermes-transient-progress-cleanup/
+mkdir -p ~/.hermes/skills/devops/hermes-blip
+cp -R skills/hermes-blip/* ~/.hermes/skills/devops/hermes-blip/
 ```
 
 之后你可以在 Hermes 里让 agent 执行：
 
 ```text
-运行 hermes-transient-progress-cleanup，恢复 Telegram 过程消息完成后撤回功能。
+运行 hermes-blip，恢复 Telegram 过程消息完成后撤回功能。
 ```
 
 ## 验证
@@ -213,7 +213,7 @@ python -m pytest tests/gateway/test_display_config.py tests/gateway/test_run_pro
 ## 推荐仓库名
 
 ```text
-hermes-transient-progress-cleanup
+hermes-blip
 ```
 
 ## License

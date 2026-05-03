@@ -1,4 +1,4 @@
-# Hermes Transient Progress Cleanup
+# Hermes Blip
 
 > Make Hermes Telegram Gateway tool-progress messages transient: one editable rolling progress bubble during execution, up to the latest 3 lines, automatically deleted after the final reply.
 
@@ -46,8 +46,8 @@ Do not use this if:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shengyu-meng/hermes-transient-progress-cleanup.git
-cd hermes-transient-progress-cleanup
+git clone https://github.com/shengyu-meng/hermes-blip.git
+cd hermes-blip
 ```
 
 
@@ -132,20 +132,20 @@ Meaning:
 This repository includes a Hermes skill:
 
 ```text
-skills/hermes-transient-progress-cleanup/SKILL.md
+skills/hermes-blip/SKILL.md
 ```
 
 Copy it into your Hermes skill directory:
 
 ```bash
-mkdir -p ~/.hermes/skills/devops/hermes-transient-progress-cleanup
-cp -R skills/hermes-transient-progress-cleanup/* ~/.hermes/skills/devops/hermes-transient-progress-cleanup/
+mkdir -p ~/.hermes/skills/devops/hermes-blip
+cp -R skills/hermes-blip/* ~/.hermes/skills/devops/hermes-blip/
 ```
 
 Then ask Hermes:
 
 ```text
-Run hermes-transient-progress-cleanup and restore Telegram transient tool progress cleanup.
+Run hermes-blip and restore Telegram transient tool progress cleanup.
 ```
 
 ## Verification

@@ -1,5 +1,5 @@
 ---
-name: hermes-transient-progress-cleanup
+name: hermes-blip
 description: Use when Hermes Telegram Gateway tool-progress messages should be visible during execution as one rolling transient bubble, then deleted after the final reply.
 version: 1.0.0
 author: Hermes Agent community
@@ -10,7 +10,7 @@ metadata:
     related_skills: [hermes-agent]
 ---
 
-# Hermes Transient Progress Cleanup
+# Hermes Blip
 
 ## Overview
 
