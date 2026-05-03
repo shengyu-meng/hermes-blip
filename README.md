@@ -46,11 +46,10 @@ Hermes Agent 在 Telegram Gateway 中执行工具时，可能会把 `terminal`�
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hermes-transient-progress-cleanup.git
+git clone https://github.com/shengyu-meng/hermes-transient-progress-cleanup.git
 cd hermes-transient-progress-cleanup
 ```
 
-把 `YOUR_USERNAME` 换成实际仓库 owner。
 
 ### 2. 运行补丁脚本
 

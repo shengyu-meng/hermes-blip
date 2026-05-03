@@ -46,11 +46,10 @@ Do not use this if:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hermes-transient-progress-cleanup.git
+git clone https://github.com/shengyu-meng/hermes-transient-progress-cleanup.git
 cd hermes-transient-progress-cleanup
 ```
 
-Replace `YOUR_USERNAME` with the actual repository owner.
 
 ### 2. Run the patch script
 
