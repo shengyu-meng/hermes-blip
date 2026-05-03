@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Hermes/private local state
+.env
+*.env
+config.yaml
+auth.json
+sessions/
+logs/
+browser-login-profile/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
